@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Age Checker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>Age Checker</h1>
+
+        <p class="subtitle">
+            Enter your age to determine your category
+        </p>
+
+        <div class="input-group">
+            <label for="age">Age</label>
+
+            <input
+                type="number"
+                id="age"
+                min="0"
+                max="120"
+                placeholder="Enter your age"
+            >
+        </div>
+
+        <button id="checkButton">
+            Check Age
+        </button>
+
+        <div id="result" class="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
